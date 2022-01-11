@@ -1119,7 +1119,7 @@
                     r.a.createElement(
                       i.b,
                       { to: "/orderHistory" },
-                      "Order History"
+                      "🛍️ Order History"
                     )
                   ),
                   r.a.createElement(

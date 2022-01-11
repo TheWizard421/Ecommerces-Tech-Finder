@@ -25,6 +25,7 @@ body {
   color: #272f32;
   color: var(--dark);
 }
+
 h1,
 h2,
 h3,
@@ -84,7 +85,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: #f3a847;
+  background-color: #932626;
   background-color: var(--secondary);
 }
 button:hover {
@@ -113,7 +114,7 @@ input {
   transition: box-shadow 0.2s;
 }
 input:focus {
-  border: 1px solid #f3a847;
+  border: 1px solid #932626;
   border: 1px solid var(--secondary);
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
@@ -229,7 +230,7 @@ input:focus {
   right: 1%;
   font-size: 2rem;
   cursor: pointer;
-  background-color: var(--secondary);
+  background-color: #932626;
   border-radius: 50%;
   padding: 0.25rem;
   width: 50px;
