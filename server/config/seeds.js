@@ -20,7 +20,7 @@ db.once('open', async () => {
       name: 'Amazon - 43" Class Omni Series 4K UHD Smart Fire TV hands-free with Alexa',
       description:
         'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: '6479709_sd.jpg',
+      image: '6479709_sd.png',
       category: categories[0]._id,
       price: 409.99,
       quantity: 32
@@ -29,7 +29,7 @@ db.once('open', async () => {
       name: 'Epson - EpiqVision™ Mini EF12 Smart Streaming Laser Projector with HDR and Android TV - Black and Copper',
       description:
         'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
-      image: '6428489_sd.jpg',
+      image: '6428489_sd.png',
       category: categories[0]._id,
       price: 999.99,
       quantity: 500
@@ -37,7 +37,7 @@ db.once('open', async () => {
     {
       name: 'Samsung - 75" Class 8000 Series LED 4K UHD Smart Tizen TV', 
       description: "Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.",
-      image: '6453027_sd.jpg',
+      image: '6453027_sd.png',
       category: categories[0]._id,
       price: 1199.99,
       quantity: 8
@@ -48,7 +48,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
-      image: '6366581_sd.jpg',
+      image: '6366581_sd.png',
       price: 2799.99,
       quantity: 20
     },
@@ -57,7 +57,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
-      image: '6482938_sd.jpg',
+      image: '6482938_sd.png',
       price: 1649.99,
       quantity: 3
     },
@@ -66,7 +66,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
-      image: '6452913_rd.jpg',
+      image: '6452913_rd.png',
       price: 1849.99,
       quantity: 10
     },
@@ -75,7 +75,7 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
-      image: '6422363_rd.jpg',
+      image: '6422363_rd.png',
       price: 11.99,
       quantity: 80
     },
@@ -84,7 +84,7 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
-      image: '6408475_sd.jpg',
+      image: '6408475_sd.png',
       price: 579.99,
       quantity: 20
     },
@@ -92,7 +92,7 @@ db.once('open', async () => {
       name: "Oculus - Quest 2 Advanced All-In-One Virtual Reality Headset - 256GB",
       category: categories[3]._id,
       description: 'Experience our most advanced all-in-one VR system yet with Oculus Quest 2. No PC or console required. Every detail has been engineered to make virtual worlds adapt to your movements, letting you explore awe-inspiring games and experiences with unparalleled freedom. You can get the most out of each moment with blazing-fast performance and next-generation graphics. Stay focused on every detail with a stunning display that features 50% more pixels than the original Quest. Or take a break from the action and grab front-row seats to live concerts, exclusive events and more. With the redesigned Touch controllers, your gestures and motions are transported directly into VR with improved ergonomics. You can even connect your VR headset to a gaming-compatible computer with an Oculus Link cable (sold separately) to access hundreds of PC VR games and experiences. Quest 2 also lets you bring your friends into the action. Live casting lets you share your VR experience with people around you. Or meet up with friends in virtual worlds to battle in multiplayer competitions or just spend some time together. There’s no end in sight to what you can play, create and discover in Oculus Quest 2.',
-      image: '6473857_rd.jpg',
+      image: '6473857_rd.png',
       price: 400.99,
       quantity: 7
     },
@@ -100,7 +100,7 @@ db.once('open', async () => {
       name: "NVIDIA GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Graphics Card - Titanium and Black",
       category: categories[3]._id,
       description: 'The GeForce RTX 3080 delivers the ultra performance that gamers crave, powered by Ampere—NVIDIA’s 2nd gen RTX architecture. It’s built with enhanced RT Cores and Tensor Cores, new streaming multiprocessors, and superfast G6X memory for an amazing gaming experience.',
-      image: '6429440cv1d.webp',
+      image: '864231454.sd.png',
       price: 1300.00,
       quantity: 1
     },
@@ -108,7 +108,7 @@ db.once('open', async () => {
       name: "ASUS - TUF GAMING X570-PLUS (WI-FI) (Socket AM4) USB-C Gen2 AMD Motherboard with LED Lighting",
       category: categories[3]._id,
       description: 'Get the power you need to play demanding games with this ASUS TUF gaming motherboard. The AMD chipset provides power and compatibility with Ryzen processors while Gigabit Ethernet, Bluetooth 5 and 802.11ac Wi-Fi deliver fast connectivity. Active cooling and multiple heat sinks keep this ASUS TUF gaming motherboard running at peak performance.',
-      image: '6356983cv12d.jpg',
+      image: '6356983cv12d.png',
       price: 199.99,
       quantity: 18
     },
