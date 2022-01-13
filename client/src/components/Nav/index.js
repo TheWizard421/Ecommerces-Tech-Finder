@@ -8,28 +8,43 @@ function Nav() {
       return (
         <ul className="flex-row">
           <li className="mx-1">
-            <Link to="/orderHistory">Order History</Link>
+            <button>
+              <Link to="/orderHistory">🛍️ Order History</Link>
+            </button>
           </li>
           <li className="mx-1">
             {/* this is not using the Link component to logout or user and then refresh the application to the start */}
-            <a href="/" onClick={() => Auth.logout()}>
-              Logout
-            </a>
+            <button>
+              <a href="/" onClick={() => Auth.logout()}>
+                🚪 Logout
+              </a>
+            </button>
           </li>
+          <button className="dark-mode-btn" onClick={() => myFunction()}>
+            🌙 Toggle Dark Mode
+          </button>
         </ul>
       );
     } else {
       return (
         <ul className="flex-row">
           <li className="mx-1">
-            <Link to="/signup">Signup</Link>
+            <button>
+              <Link to="/signup">✍️ Signup</Link>
+            </button>
           </li>
           <li className="mx-1">
-            <Link to="/login">Login</Link>
+            <button>
+              <Link to="/login">🗝️ Login</Link>
+            </button>
           </li>
         </ul>
       );
     }
+  }
+  function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
   }
 
   return (
